@@ -7,14 +7,14 @@ namespace Company
         public int CountTeams = 0;
         public int CountMembers = 0;
 
-        public Team(string a, string b)
+        public Team(string a, string b) // название параметров не отражает суть
         {
             string NameOfTeam = a;
             new SomeProject(NameOfTeam, b);
             CountTeams++;
         }
 
-        List<Employee> NameOfTeam = new List<Employee>();
+        List<Employee> NameOfTeam = new List<Employee>(); // название переменной не отражает суть
         
         public void Add(string name, string surname, int age, string company)
         {
